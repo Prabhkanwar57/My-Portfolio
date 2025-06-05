@@ -10,17 +10,20 @@ const projects = [
     tags: ["Android", "Firebase", "WorkManager", "SQLite"],
   },
   {
-    title: "Global Football Match Tracker (Web Programming)",
-    description:
-      "Full-stack app to view, search, filter, and bookmark football matches. Includes role-based access, dashboards, and match management with MongoDB and Express.",
-    link: "https://github.com/Prabhkanwar57/Web-Programming-Phase-3",
-    tags: ["Node.js", "Express", "MongoDB", "EJS"],
-  },
+  title: "Global Football Match Tracker (Web Programming)",
+  description:
+    "Full-stack app to view, search, filter, and bookmark football matches. Includes role-based access, dashboards, and match management with MongoDB and Express.",
+  link: "https://github.com/Prabhkanwar57/Web-Programming-Phase-3",
+  qr: "/qr-footballqr.png",  
+  tags: ["Node.js", "Express", "MongoDB", "EJS"],
+},
+
   {
     title: "Insurance Broker Management System (J2EE)",
     description:
       "Web-based system to manage customers, policies, and claims. Includes CRUD, policy renewal, and Hibernate ORM for backend operations.",
     link: "https://github.com/Prabhkanwar57/j2ee_assignment_4-5",
+    qr: "/qr-insurance.png",  
     tags: ["J2EE", "Servlets", "JSP", "Hibernate"],
   },
 ];
@@ -81,7 +84,7 @@ const Projects = () => {
                     className="w-24 h-24 mx-auto rounded-lg shadow"
                   />
                   <p className="text-sm text-gray-500 mt-1">
-                    📱 Scan to try MediTrack (Android)
+                    
                   </p>
                 </div>
               )}
